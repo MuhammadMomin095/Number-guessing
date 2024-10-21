@@ -1,0 +1,74 @@
+/* Body styling for dark theme */
+body {
+    background-color: #1c1c1c; /* Dark background for the body */
+    color: #f5f5f5; /* Light text color for readability */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+    margin: 0; /* No margin */
+}
+
+/* Main container styling */
+.container {
+    background-color: #2c2c2c; /* Slightly darker gray for the container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.3); /* Soft green shadow for depth */
+    width: 300px; /* Fixed width */
+    text-align: center; /* Center text */
+}
+
+/* Heading styling */
+h1 {
+    color: #ffca28; /* Bright yellow for the heading */
+    margin-bottom: 20px; /* Margin below heading */
+}
+
+/* Input field styling */
+input {
+    padding: 10px; /* Padding for input */
+    width: 70%; /* Width of input */
+    background-color: #3c3c3c; /* Darker background for input */
+    color: #ffffff; /* White text */
+    border: 2px solid #4caf50; /* Green border */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Input focus effect */
+input:focus {
+    outline: none; /* No outline */
+    border-color: #ffca28; /* Change border color on focus */
+}
+
+/* Button styling */
+button {
+    padding: 10px; /* Padding for button */
+    background-color: #4caf50; /* Fresh green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px 0; /* Margin above and below button */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Result text styling */
+#result {
+    margin-top: 20px; /* Margin above result */
+    font-weight: bold; /* Bold text */
+    color: #ffcc00; /* Bright yellow for results to stand out */
+}
+
+/* Attempts text styling */
+#attempts {
+    margin-top: 10px; /* Margin above attempts */
+    color: #cccccc; /* Lighter gray for attempts to distinguish from main text */
+}
